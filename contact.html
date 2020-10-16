@@ -5,23 +5,78 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon (2).ico">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon (2).ico">
+
+
+    <!-- Fonts Embedded -->
+    <link href="https://fonts.googleapis.com/css?family=Manrope:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <center>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <a class="navbar-brand logo" href=""><img class="logo-image" src="http://pngimg.com/uploads/letter_k/letter_k_PNG81.png" alt="KHOOBSURAT">KHOOBSURAT</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="#About">About Us</a></li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Our Menu </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Cakes</a>
+                      <a class="dropdown-item" href="#">Cookies</a>
+                      <a class="dropdown-item" href="#">Brownies</a>
+                  </div>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#Classes">Online Classes</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact-me">Contact Us</a></li>
+          </ul>
+      </div>
+  </nav>
+
+
+    <center class="cen-contact">
         <h1 style="font-size: 200%;">REGISTRATION FOR ONLINE CLASSES</h1><br><br>
         <p>For pre booking,</p>
-        <h3>Call on 9831038728 or,</h3> 
+        <h3>Call on 9831038728 or,</h3>
         <h3>Email: sohalibiswas49@gmail.com</h3><br>
         <h3 style="text-decoration: underline;"><strong>Registration form</strong></h3><br>
-        <form>
+        <form class="form-group">
             <label>Your Name:</label>
-            <input type=""><br>
+            <input type="" class="form-group"><br>
             <label>Date for your preferred online class:</label>
-            <input type="date"><br>
+            <input type="date" class="form-group"><br>
             <label>Any specification?:</label><br>
-            <textarea name="" id="" cols="30" rows="5"></textarea><br><br><br>
-            <input type="submit">
+            <textarea class="form-group" name="" id="" cols="30" rows="5"></textarea><br><br><br>
+            <input type="submit" class="btn btn-outline-dark">
         </form>
-    </center>  
+    </center>
+
+
+    <div class="footer">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="index.html">Website</a><br><br>
+        <p class="copyright">© 2020 Sohali Biswas KHOOBSURAT</p>
+    </div>
 </body>
 </html>
