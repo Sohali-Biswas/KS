@@ -37,7 +37,7 @@ body{
     font-size: 3rem;
 }
 .carousel-text1{
-    color: red;    
+    color: red;
 }
 .carousel-text2{
     color: #f9ff21;
@@ -82,7 +82,7 @@ body{
 }
 .copyright{
     padding: 3% 0 2%;
-    color: #084177; 
+    color: #084177;
     font-size: 0.75rem;
 }
 .description{
@@ -202,4 +202,22 @@ h1,h2,h3,h4,h5,h6{
     .fotd-card{
         margin-bottom: 2rem;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* contact */
+
+
+.cen-contact{
+  margin-top: 10%;
+  margin-bottom: 4%;
 }
